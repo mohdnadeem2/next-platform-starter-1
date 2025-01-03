@@ -19,9 +19,7 @@ The card content below is fetched by the client-side from \`/quotes/random\` (se
 `;
 
 const postDynamicContentExplainer = `
-On Netlify, Next.js Route Handlers are automatically deployed as [Serverless Functions](https://docs.netlify.com/functions/overview/).
-Alternatively, you can add Serverless Functions to any site regardless of framework, with acccess to the [full context data](https://docs.netlify.com/functions/api/).
-
+test app deployment 
 And as always with dynamic content, beware of layout shifts & flicker! (here, we aren't...)
 `;
 
@@ -32,7 +30,7 @@ export default function Page() {
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <ContextAlert />
-                <h1 className="mb-0">Netlify Platform Starter - Next.js</h1>
+                <h1 className="mb-0">Next JS first test app deployemnt by nadeem</h1>
                 <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
                 <Link
                     href="https://docs.netlify.com/frameworks/next-js/overview/"
